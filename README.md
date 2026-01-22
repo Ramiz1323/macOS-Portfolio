@@ -1,16 +1,93 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍎 macOS-Style Portfolio  
 
-Currently, two official plugins are available:
+**A macOS-inspired interactive desktop portfolio built with React**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Build-purple?logo=vite)
+![SCSS](https://img.shields.io/badge/SCSS-Styling-pink?logo=sass)
+![MIT](https://img.shields.io/badge/License-MIT-green)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+> 🚧 **Status:** *In active development. New apps and features are added regularly.*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Overview
+
+A highly interactive, web-based portfolio that **replicates the macOS desktop experience**.  
+It includes a top navigation bar, draggable app windows, and a fully functional dock — creating a real OS-like feel inside the browser.
+
+---
+
+## 🚀 Core Features
+
+| Feature | Description |
+|--------|-------------|
+| 🖥️ Desktop UI | macOS-inspired interface with Navbar & Dock |
+| 🪟 Window System | Multi-window open, close, focus control |
+| ✋ Drag & Resize | Custom layout using `react-rnd` |
+| 💻 Terminal | Interactive CLI using `react-console-emulator` |
+| 📝 Notes | Markdown-rendered notes |
+| 🎵 Spotify | Music player integration |
+| 🧑‍💻 GitHub | Repository viewer |
+| 📄 Resume | Dedicated professional profile window |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tools |
+|------|--------|
+| ⚛ Frontend | React 19 |
+| ⚡ Bundler | Vite |
+| 🎨 Styling | SCSS |
+| 📦 State | React Hooks |
+| 🪟 Windows | react-rnd |
+| 💻 CLI | react-console-emulator |
+| 📝 Markdown | react-markdown |
+| 🔥 Code UI | react-syntax-highlighter |
+
+---
+
+## ⚙️ Setup & Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/portfolio-macos.git
+cd portfolio-macos
+
+# Install packages
+npm install
+
+# Run in development
+npm run dev
+
+# Build for production
+npm run build
+```
+## 🗺️ Roadmap
+
+- [ ] 🍎 Apple Menu & Control Center  
+- [ ] 🌗 Dark / Light mode  
+- [ ] 💻 Advanced CLI commands  
+- [ ] 🗂️ Desktop icons  
+- [ ] 📱 Mobile support  
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+✨ *Designed to feel like macOS. Powered by React.*
+
+</div>
