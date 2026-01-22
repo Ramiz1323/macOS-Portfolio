@@ -1,0 +1,54 @@
+.window{
+    background-color: rgb(21, 21, 21);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    height: 100%;
+
+    .title-bar{
+        display: flex;
+        align-items: center;
+        background-color: rgba(39, 39, 39, 0.8);
+        backdrop-filter: blur(10px);
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
+    }
+    .dots{
+        display: flex;
+        gap: 0.5rem;
+        padding: 0.75rem;
+        
+        .dot{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        
+        .red{
+            background-color: #ff605c;
+            cursor: default;
+        }
+        
+        .yellow{
+            background-color: #ffbd44;
+            cursor: default;
+        }
+        
+        .green{
+            background-color: #00ca56;
+            cursor: default;
+        }
+    }
+    .title{
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #b5b4b4;
+    }
+    .window-content{
+        height: 90%;
+        padding: 10px;
+        overflow: hidden;
+    }
+}

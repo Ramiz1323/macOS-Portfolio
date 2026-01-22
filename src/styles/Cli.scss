@@ -1,0 +1,42 @@
+.cli-window {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+  height: 100%;
+  
+  .terminal-base {
+    font-family: 'SF Mono', 'Fira Code', 'Monaco', monospace !important;
+    background: rgba(25, 25, 25, 0.85) !important;
+    border-radius: 0 0 12px 12px !important;
+  }
+
+  .terminal-prompt-label {
+    color: #00ff00 !important;
+  }
+
+  .terminal-input {
+    color: #00ff00 !important;
+  }
+
+  .terminal-output {
+    color: #f0f0f0 !important;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 0, 0.3);
+    border-radius: 10px;
+
+    &:hover {
+      background: rgba(0, 255, 0, 0.5);
+    }
+  }
+}

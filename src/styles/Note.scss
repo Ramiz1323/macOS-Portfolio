@@ -1,0 +1,84 @@
+.note-window{
+    font-size: 15px;
+    height: 110%;
+    overflow: auto;
+    padding: 1rem 2rem;
+    
+    /* Typography - Monospace for code display */
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Courier New', monospace;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    
+    /* Preserve formatting */
+    overflow-wrap: break-word;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    
+    /* Custom Scrollbar */
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, rgba(102, 126, 234, 0.5) 0%, rgba(245, 87, 108, 0.5) 100%);
+        border-radius: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.08);
+        transition: all 0.3s ease;
+
+        &:hover {
+            background: linear-gradient(180deg, rgba(102, 126, 234, 0.8) 0%, rgba(245, 87, 108, 0.8) 100%);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    /* Firefox Scrollbar */
+    scrollbar-color: rgba(102, 126, 234, 0.5) rgba(255, 255, 255, 0.05);
+    scrollbar-width: thin;
+
+    /* Text Selection */
+    &::selection {
+        background: rgba(102, 126, 234, 0.4);
+        color: #ffffff;
+    }
+
+    /* Comment styling (green) */
+    color: #b8b8b8;
+
+    /* Comments */
+    .comment {
+        color: #6a9955;
+    }
+
+    /* Strings/Values */
+    .string {
+        color: #ce9178;
+    }
+
+    /* Keywords */
+    .keyword {
+        color: #569cd6;
+    }
+
+    /* Numbers */
+    .number {
+        color: #b5cea8;
+    }
+
+    /* Function names */
+    .function {
+        color: #dcdcaa;
+    }
+
+    /* Visibility and smooth rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

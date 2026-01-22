@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800",
+    "title": "FinTrack - Personal Expense Tracker",
+    "desc": "A full-stack MERN application for tracking daily expenses, setting budgets, and visualizing spending habits with interactive charts.",
+    "tags": ["MongoDB", "Express", "React", "Node.js", "Chart.js"],
+    "repoLink": "https://github.com/username/fintrack",
+    "demoLink": "https://fintrack-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800",
+    "title": "Automated Student Attendance System",
+    "desc": "An analytics-driven system to monitor student attendance using a dashboard that provides insights into attendance trends.",
+    "tags": ["React", "Node.js", "MySQL", "Tailwind CSS"],
+    "repoLink": "https://github.com/username/attendance-analytics",
+    "demoLink": "https://attendance-system.demo"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800",
+    "title": "E-Commerce Backend API",
+    "desc": "A robust RESTful API built with Java and Spring Boot featuring JWT authentication, product management, and order processing.",
+    "tags": ["Java", "Spring Boot", "PostgreSQL", "JWT"],
+    "repoLink": "https://github.com/username/shop-api",
+    "demoLink": "https://api-docs.demo"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800",
+    "title": "Student Management Portal",
+    "desc": "A PHP-based portal for managing student records, course enrollments, and exam results with a secure admin panel.",
+    "tags": ["PHP", "MySQL", "Bootstrap", "AJAX"],
+    "repoLink": "https://github.com/username/student-portal",
+    "demoLink": "https://portal-preview.demo"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800",
+    "title": "Next.js Dev Portfolio",
+    "desc": "A high-performance portfolio website built with Next.js featuring server-side rendering and a clean, minimalist design.",
+    "tags": ["Next.js", "TypeScript", "Framer Motion"],
+    "repoLink": "https://github.com/username/portfolio",
+    "demoLink": "https://my-portfolio.dev"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?q=80&w=800",
+    "title": "Crypto Price Tracker",
+    "desc": "A real-time cryptocurrency tracker using the CoinGecko API to display live price updates and market capitalization.",
+    "tags": ["React", "Context API", "Axios"],
+    "repoLink": "https://github.com/username/crypto-track",
+    "demoLink": "https://crypto-live.demo"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=800",
+    "title": "Task Management Kanban",
+    "desc": "A drag-and-drop Kanban board for project management, allowing users to move tasks through different stages of completion.",
+    "tags": ["React", "Dnd-kit", "Zustand"],
+    "repoLink": "https://github.com/username/kanban-board",
+    "demoLink": "https://task-kanban.demo"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800",
+    "title": "Social Media Feed API",
+    "desc": "A Node.js and MongoDB backend supporting user posts, comments, likes, and follower relationships.",
+    "tags": ["Node.js", "MongoDB", "Mongoose", "Express"],
+    "repoLink": "https://github.com/username/social-api",
+    "demoLink": "https://social-docs.demo"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=800",
+    "title": "Hospital Management System",
+    "desc": "A desktop application for managing doctor appointments and patient records using Java Swing and MySQL.",
+    "tags": ["Java", "Swing", "JDBC", "MySQL"],
+    "repoLink": "https://github.com/username/hospital-system",
+    "demoLink": "https://github.com/username/hospital-system#demo"
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=800",
+    "title": "Weather Forecast Dashboard",
+    "desc": "A weather app that uses the OpenWeatherMap API to provide detailed forecasts based on the user's location.",
+    "tags": ["JavaScript", "CSS3", "HTML5", "API"],
+    "repoLink": "https://github.com/username/weather-app",
+    "demoLink": "https://weather-view.demo"
+  }
+]
