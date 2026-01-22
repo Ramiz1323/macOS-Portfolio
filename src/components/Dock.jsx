@@ -28,6 +28,9 @@ const Dock = ({ windowState, setWindowState }) => {
         <img src="/doc-icons/pdf.svg" alt="" />
       </div>
       <div
+      onClick={()=>{
+        window.open("https://calendar.google.com/calendar/u/0/r","_blank")
+      }}
         className="icon calender"
       >
         <img src="/doc-icons/calender.svg" alt="" />
@@ -46,6 +49,9 @@ const Dock = ({ windowState, setWindowState }) => {
         <img src="/doc-icons/mail.svg" alt="" />
       </div>
       <div
+      onClick={()=>{
+        window.open("https://www.linkedin.com/in/sk-ramiz-raza/", "_blank")
+      }}
         className="icon link"
       >
         <img src="/doc-icons/link.svg" alt="" />
