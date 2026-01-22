@@ -16,3 +16,17 @@ nav{
     }
 }
 
+// Nav.scss updates
+nav {
+    padding: 5px 15px; // Increase horizontal padding
+    
+    .left, .right {
+        gap: 8px; 
+        font-size: 14px;
+
+        @media (max-width: 480px) {
+            font-size: 12px; // Smaller text for mobile
+            gap: 5px;
+        }
+    }
+}

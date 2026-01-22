@@ -52,3 +52,22 @@
         overflow: hidden;
     }
 }
+// MacWindow.scss updates
+.window {
+    border-radius: 0.75rem;
+    height: 100%;
+    width: 100%;
+
+    @media (max-width: 480px) {
+        border-radius: 0; // Square corners look better when full-screen on mobile
+    }
+
+    .title-bar {
+        padding: 5px; // Smaller title bar for mobile
+    }
+
+    .window-content {
+        padding: 15px;
+        overflow-y: auto; // Enable internal scrolling for window content
+    }
+}

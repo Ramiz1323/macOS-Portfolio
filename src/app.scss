@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
-html,body,#root{
+$mobile: 480px;
+$tablet: 768px;
+
+html, body, #root {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    // Change overflow to allow scrolling only if necessary on mobile
+    @media (max-width: $tablet) {
+        overflow-y: auto; 
+    }
+    @media (min-width: $tablet) {
+        overflow: hidden;
+    }
 }
 
 main{
@@ -20,4 +29,5 @@ body{
     background-image: url('wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
